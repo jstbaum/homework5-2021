@@ -37,6 +37,19 @@ padding: 25px 0;
 text-align: left;   
 }
 
+header{
+  background-attachment: fixed; /* Parallax effect */
+  background-position: center; /* Parallax effect */
+  background-size: cover; /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-image: url(../images/header.jpg);
+  color: white;
+  height: 400px; /* Parallax effect */
+  /* YOUR CODE HERE; */
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 3;
+}
+
 header p{
 color: white;
 font-size: 24px;
@@ -160,7 +173,7 @@ top: -40px;
 }
 
 @media screen and (min-width: 800px){
-nav{
+  nav{
   padding: 30px 0;
   text-align: center;
   /* Your code here */
@@ -181,14 +194,13 @@ header{
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   background-repeat: no-repeat;
+  background-image: url(../images/header.jpg);
   color: white;
   height: 400px; /* Parallax effect */
   grid-row: 1 / span 1;
   grid-column: 1 / span 5;
-  background-image: url(../images/header.jpg);
-  
-  
-  /* YOUR CODE HERE; */
+
+
   }
 
 .about-image{
